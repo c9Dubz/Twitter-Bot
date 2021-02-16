@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="{% static "css/style.css" %}"/>
+<title>Twitter Bot</title>
+{% load static %}
+</head>
+
+<body>
+    <!Custom scrollbar>
+    <style>
+
+        ::-webkit-scrollbar
+        {
+          width: 8.5px;  /* for vertical scrollbars */
+          height: 8.5px; /* for horizontal scrollbars */
+        }
+        
+        ::-webkit-scrollbar-track
+        {
+          background: rgba(255, 255, 255, 0.555);
+        }
+        
+        ::-webkit-scrollbar-thumb
+        {
+          background: rgba(0, 0, 0);
+        }
+    
+    </style>
+<!Background elements> 
+<div class="white_background">
+<div class="blur_background">
+<div class="gradient_background">
+</div>
+<! Background graphics elements>
+<div class="v1_1"></div>
+<div class="v1_2"></div>*
+<div class="v1_3"></div>
+<div class="v1_4"></div>
+<div class="v1_5"></div>
+</div>
+<! Header elements>
+<div class="header_box">
+<span class="header">TWITTER CRYPTO BOT</span>
+
+<div id="main">
+  <div id="app"></div>
+
+    <script src="{% static "frontend/main.js" %}"></script>
+
+</div></div>
+
+</body>
+</html>
